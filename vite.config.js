@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: "/url-shoter",
+  base: "/url-shoter/",
   resolve: {
     alias: {
       // react: require.resolve('react'),

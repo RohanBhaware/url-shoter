@@ -3,7 +3,7 @@ name: Deploy Vite React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # 👈 change this if your default branch is not "main"
+      - main  # 👈 change if your default branch is not "main"
 
 permissions:
   contents: read
